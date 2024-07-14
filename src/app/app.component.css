@@ -1,0 +1,28 @@
+
+.footer{
+  padding: 6rem 6rem 3rem 6rem;
+}
+.apply-cls{
+  border: 1px solid #dedada;
+  border-radius: 12px;
+  padding: 24px;
+}
+.header-profile{
+  border-radius: 11px;
+  margin-left: 10px;
+  border: 1px solid #265DF5;
+  background: transparent;
+  color: #265DF5;
+  height: 27px;
+  width: auto;
+  padding: 5px 10px 31px 10px;
+}
+.profile{
+  text-align: center;
+  font-size: 50px;
+  height: 75px;
+  width: 100px;
+  border-radius: 50%;
+  background: #f2f2f2;
+  margin-right: 10px;
+}
