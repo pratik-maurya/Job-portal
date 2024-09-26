@@ -40,17 +40,20 @@ export class HomeComponent {
     {
       name:'pratik',
       alt:'pratik',
-      src:'https://img.naukimg.com/logo_images/groups/v1/1715696.gif'
+      src:'https://img.naukimg.com/logo_images/groups/v1/1715696.gif',
+      id:1
     },
     {
       name:'Maurya',
       alt:'pratik',
-      src:'https://img.naukimg.com/logo_images/groups/v1/1715696.gif'
+      src:'https://img.naukimg.com/logo_images/groups/v1/1715696.gif',
+      id:2
     },
     {
       name:'pratik',
       alt:'pratik',
-      src:'https://img.naukimg.com/logo_images/groups/v1/1715696.gif'
+      src:'https://img.naukimg.com/logo_images/groups/v1/1715696.gif',
+      id:3
     }
   ]
 

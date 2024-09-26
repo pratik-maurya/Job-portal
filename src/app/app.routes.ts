@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { JobListingComponent } from './pages/job-listing/job-listing.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
 import { JobDetailComponent } from './pages/job-detail/job-detail.component';
+import { CompaniesComponent } from './pages/companies/companies.component';
 
 export const routes: Routes = [
   {
@@ -29,7 +30,7 @@ export const routes: Routes = [
   },
   {
     path:'companies',
-    component:JobListingComponent
+    component:CompaniesComponent
   },
   {
     path:'jobs/job-detail',

@@ -1,0 +1,83 @@
+.card{
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  .profile{
+    text-align: center;
+      font-size: 60px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background: #f2f2f2;
+  }
+  .profile-btn{
+    border: 1px;
+    background: #275df5;
+    color: white;
+    padding: 7px;
+    border-radius: 60px;
+    width: 85%;
+  }
+  .nav-link.active{
+    background-color: transparent;
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+  }
+  .view-all-cls{
+    float: right;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.center{
+  display: flex;
+    justify-content: center;
+}
+.list-style{
+  li{
+    padding: 10px;
+    margin-left: -45px;
+    cursor: pointer;
+  }
+  ul li a.active{
+    border-radius: 50px;
+    background-color: #f3f3f3;
+  }
+  ul li a:hover:not(.active) {
+    background-color: #f3f3f3;
+    color: 275df5;
+    }
+  li:hover {
+    color: #275df5;
+    border-radius: 50px;
+    background-color: #f3f3f3;
+  }
+  img{
+    margin-right: 10px;
+  }
+}
+
+.key-points{
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 10px;
+}
+.key-points:hover{
+  border: 1px solid #275df5;
+  border-radius: 50px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.cmp-logo{
+  width: 155%;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+}
